@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="wc134-dhcp-53.brynmawr.edu" name="com.flatironschool.javacs.MyArrayListTest" skipped="0" tests="19" time="0.06" timestamp="2016-03-25T17:20:29">
+<testsuite errors="0" failures="0" hostname="wc134-dhcp-53.brynmawr.edu" name="com.flatironschool.javacs.MyArrayListTest" skipped="0" tests="19" time="0.058" timestamp="2016-03-25T17:28:00">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -79,7 +79,7 @@
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.MyArrayListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/junit/TEST-com.flatironschool.javacs.MyArrayListTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/junitvmwatcher2405898552869564781.properties propsfile=/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/junit1217392701097116353.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.MyArrayListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/junit/TEST-com.flatironschool.javacs.MyArrayListTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/junitvmwatcher9129693074752079813.properties propsfile=/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/junit5574735733734585369.properties" />
     <property name="java.class.path" value="/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/bin:/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/lib/junit-4.12.jar:/Users/rachelxu/Documents/codeu/implementing-an-arraylist/javacs-lab02/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
     <property name="env.TERM_SESSION_ID" value="DE30E5AB-C52E-4B17-9606-EAB1B745ED79" />
     <property name="ant.file.type.JavaCS" value="file" />
@@ -93,6 +93,7 @@
     <property name="java.io.tmpdir" value="/var/folders/nw/px800brd2qv0rdpm7t9n47n40000gn/T/" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.GP5CngU3Wq/Listeners" />
+    <property name="env.JAVA_MAIN_CLASS_20546" value="org.apache.tools.ant.launch.Launcher" />
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
     <property name="os.arch" value="x86_64" />
     <property name="java.ext.dirs" value="/Users/rachelxu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
@@ -105,13 +106,12 @@
     <property name="source" value="1.6" />
     <property name="file.encoding" value="UTF-8" />
     <property name="java.specification.version" value="1.8" />
-    <property name="env.JAVA_MAIN_CLASS_20434" value="org.apache.tools.ant.launch.Launcher" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testToArray" time="0.003" />
-  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testAddIntT" time="0.0" />
+  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testAddIntT" time="0.001" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testGet" time="0.0" />
-  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testSet" time="0.001" />
+  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testSet" time="0.0" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testAddAllCollectionOfQextendsT" time="0.0" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testClear" time="0.0" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testAddT" time="0.0" />
@@ -120,9 +120,9 @@
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testMyArrayList" time="0.0" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testContainsAll" time="0.0" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testRemoveObject" time="0.0" />
-  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testContains" time="0.0" />
+  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testContains" time="0.001" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testIndexOf" time="0.0" />
-  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testIsEmpty" time="0.001" />
+  <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testIsEmpty" time="0.0" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testIterator" time="0.001" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testRemoveAll" time="0.0" />
   <testcase classname="com.flatironschool.javacs.MyArrayListTest" name="testRemoveInt" time="0.0" />

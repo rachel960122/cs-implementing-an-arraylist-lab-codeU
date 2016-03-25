@@ -126,11 +126,9 @@ public class MyArrayList<E> implements List<E> {
 	public int indexOf(Object target) {
 		// TODO: fill in this method
 		for (int i = 0; i < size; i++) {
-			if (array[i] == null && target == null) {
+			if (equals(array[i], target)) {
 				return i;
-			} else if (array[i].equals(target)) {
-				return i;
-			} 
+			}
 		}
 		return -1;
 	}
@@ -210,7 +208,6 @@ public class MyArrayList<E> implements List<E> {
 		for (int i = index; i < size - 1; i++) {
 			array[i] = array[i + 1];
 		}
-		array[size-1] = null;
 		size--;
 		return removedObj;
 	}
